@@ -1,8 +1,5 @@
 @ECHO OFF
-"%ProgramFiles%\VideoLAN\VLC\vlc.exe" "https://raw.githubusercontent.com/bedjan/difm/master/difm.m3u"
-
-@ECHO OFF
-echo tv_online
+echo difm
 GOTO %PROCESSOR_ARCHITECTURE%
 
 :AMD64
