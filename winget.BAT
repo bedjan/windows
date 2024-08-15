@@ -1,7 +1,4 @@
 @ECHO OFF
-echo winget upgrade
-
-echo "zadej pripadne winget upgrade /prislusna aplikace/"
 
 winget install -e --id Notepad++.Notepad++
 winget install -e --id SublimeHQ.SublimeText.4
